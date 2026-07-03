@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>深影 非公式サイト | TOP PAGE</title>
+	<link rel="stylesheet" href="css/main-style.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.slider').bxSlider({
+				auto: true,
+				pause: 5000, // 画像がスライドするスピード
+				slideWidth: 640, // 画像の横幅
+				touchEnabled: false, // リンクを効かせるための処理
+			});
+		});
+	</script>
+	
+	<script>
+		$(document).ready(function () {
+		        $("#articles").load("articles.html main");
+		    });
+	</script>
+
+</head>
+
+<body id="top">
+
+	<!-- ヘッダー -->
+	<header>
+		<div class="header-inner">
+
+			<!-- ページトップに戻るロゴ -->
+			<div class="logo">
+				<a href="index.html">MIKAGE</a>
+			</div>
+
+			<!-- サイト案内 -->
+			<nav class="navigation">
+				<a href="index.html">TOP</a>
+				<a href="news.html">NEWS</a>
+				<a href="events.html">EVENTS</a>
+				<a href="goods.html">GOODS</a>
+			</nav>
+
+			<!-- リンク集 -->
+			<nav class="links">
+				<a href="https://www.youtube.com/@Mikage_RKMusic" target="_blank" rel="noopener noreferrer"><img
+						src="images/yt_icon_red_digital.png" alt="YouTube Link"></a>
+				<a href="https://x.com/Mikage_0916" target="_blank" rel="noopener noreferrer"><img
+						src="images/x-icon.svg" alt="X Link"></a>
+			</nav>
+
+
+
+		</div>
+
+		<!-- サイト案内 -->
+		<nav class="navigation smart">
+			<a href="index.html">TOP</a>
+			<a href="news.html">NEWS</a>
+			<a href="events.html">EVENTS</a>
+			<a href="goods.html">GOODS</a>
+		</nav>
+
+	</header>
+	<!-- ヘッダー終わり -->
+
+	<!-- メイン -->
+	<main>
+
+		<!-- 画像 -->
+		<div class="top">
+			<div class="slider">
+				<!--								<iframe width="640" height="360" src="https://www.youtube.com/embed/QjULtzL4zb4?si=S6ZvWWL3jn_eKYtm"-->
+				<!--									title="YouTube video player" frameborder="0"-->
+				<!--									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+				<!--									referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+				<!--								<iframe width="640" height="360" src="https://www.youtube.com/embed/c6I-bWqApXc?si=ByYQV1pBQk9WS9Ee"-->
+				<!--									title="YouTube video player"-->
+				<!--									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+				<!--									referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+				<!--								<iframe width="640" height="360" src="https://www.youtube.com/embed/K9rYQ0ne6gE?si=Fyba0TlHZhhPT4BF"-->
+				<!--									title="YouTube video player" frameborder="0"-->
+				<!--									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+				<!--									referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+				<!--								<iframe width="640" height="360" src="https://www.youtube.com/embed/rrxqOzy87_Q?si=UsnNXQuB08PPnXnD"-->
+				<!--									title="YouTube video player" frameborder="0"-->
+				<!--									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+				<!--									referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+				<a href="https://www.youtube.com/watch?v=QjULtzL4zb4" target="_blank" rel="noopener noreferrer">
+					<img src="images/mikage-1st-single.jpg" alt="1st single">
+				</a>
+				<a href="https://www.youtube.com/watch?v=c6I-bWqApXc" target="_blank" rel="noopener noreferrer">
+					<img src="images/mikage-2nd-single.jpg" alt="2nd single">
+				</a>
+				<a href="https://www.youtube.com/watch?v=K9rYQ0ne6gE" target="_blank" rel="noopener noreferrer">
+					<img src="images/mikage-3rd-single.jpg" alt="3rd single">
+				</a>
+				<a href="https://www.youtube.com/watch?v=rrxqOzy87_Q" target="_blank" rel="noopener noreferrer">
+					<img src="images/mikage-4th-single.jpg" alt="4th single">
+				</a>
+			</div>
+
+			<div class="schejule">
+				<img src="images/mikage-schejule.webp" alt="スケジュール">
+			</div>
+
+		</div>
+
+		<div id="articles"></div>
+		<iframe src="articles.html#articles"></iframe>
+		
+		<!-- 更新情報 -->
+		<div class="update">
+			<h2>更新情報</h2>
+			<div class="square">
+				<ul>
+					<div class="news">
+						<p class="date">2026/06/30</p>
+						<li>
+							<div class="title_line">
+								<h3 class="title">スケジュールが更新されました</h3>
+							</div>
+						</li>
+					</div>
+					<div class="events">
+						<p class="date">2026/06/27</p>
+						<li>
+							<div class="title_line">
+								<h3 class="title">RK Music Fes After Party開催</h3>
+							</div>
+						</li>
+					</div>
+				</ul>
+			</div>
+		</div>
+
+		<!-- お知らせ -->
+		<!--		<div class="news">-->
+		<!--			<h2>お知らせ</h2>-->
+		<!--			<div class="square">-->
+		<!--				<ul>-->
+		<!--					<div>-->
+		<!--						<p class="date">2026/06/30</p>-->
+		<!--						<li>-->
+		<!--							<div class="title_line">-->
+		<!--								<h3 class="title">スケジュールが更新されました</h3>-->
+		<!--							</div>-->
+		<!--						</li>-->
+		<!--					</div>-->
+		<!--					<div>-->
+		<!--						<p class="date">2026/06/22</p>-->
+		<!--						<li>-->
+		<!--							<div class="title_line">-->
+		<!--								<h3 class="title">イベント情報が更新されました</h3>-->
+		<!--							</div>-->
+		<!--						</li>-->
+		<!--					</div>-->
+		<!--				</ul>-->
+		<!--			</div>-->
+		<!--		</div>-->
+
+		<!-- イベント情報 -->
+		<!--		<div class="events">-->
+		<!--			<h2>イベント情報</h2>-->
+		<!--			<div class="square">-->
+		<!--				<ul>-->
+		<!--					<div>-->
+		<!--						<p class="date">2026/06/27</p>-->
+		<!--						<li>-->
+		<!--							<div class="title_line">-->
+		<!--								<h3 class="title">RK Music Fes After Party開催</h3>-->
+		<!--							</div>-->
+		<!--						</li>-->
+		<!--					</div>-->
+		<!--					<div>-->
+		<!--						<p class="date">2026/06/21</p>-->
+		<!--						<li>-->
+		<!--							<div class="title_line">-->
+		<!--								<h3 class="title">RK Music Fes開催</h3>-->
+		<!--							</div>-->
+		<!--						</li>-->
+		<!--					</div>-->
+		<!--				</ul>-->
+		<!--			</div>-->
+		<!--		</div>-->
+
+		<!-- グッズ情報 -->
+		<!--		<div class="goods">-->
+		<!--			<h2>グッズ情報</h2>-->
+		<!--			<div class="square">-->
+		<!--				<ul>-->
+		<!--					<div>-->
+		<!--						<p class="date">2026/06/24</p>-->
+		<!--						<li>-->
+		<!--							<div class="title_line">-->
+		<!--								<h3 class="title">RK Music Fes物販の再販が決定しました</h3>-->
+		<!--							</div>-->
+		<!--						</li>-->
+		<!--					</div>-->
+		<!--					<div>-->
+		<!--						<p class="date">2026/06/14</p>-->
+		<!--						<li>-->
+		<!--							<div class="title_line">-->
+		<!--								<h3 class="title">RK Music Fes物販情報が掲載されました</h3>-->
+		<!--							</div>-->
+		<!--						</li>-->
+		<!--					</div>-->
+		<!--				</ul>-->
+		<!--			</div>-->
+		<!--		</div>-->
+
+		<div class="fotter">
+			<a href="#top">MIKAGE</a>
+		</div>
+
+	</main>
+	<!-- メイン終わり -->
+
+	<!-- フッター -->
+	<!--	<footer>-->
+	<!--		<div class="fotter">-->
+	<!--			<a href="#top">MIKAGE</a>-->
+	<!--		</div>-->
+	<!--	</footer>-->
+	<!-- フッター終わり -->
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="css/main-style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$("#articles").load("articles.html .update");
+		});
+	</script>
+</head>
+
+<body>
+	<main>
+		<div id="articles"></div>
+<!--		<iframe src="articles.html#articles"></iframe>-->
+	</main>
+</body>
+
+</html>
