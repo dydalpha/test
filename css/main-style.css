@@ -127,7 +127,7 @@ main {
 	padding-bottom: 1rem;
 	background-image: url(../images/milkyway.jpg);
 	background-size: cover;
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 }
 
 .update{
